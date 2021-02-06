@@ -9,6 +9,7 @@
 }
 .mr-auto{
     margin: 12px;
+    padding:12px;
 
 }
 logo{
@@ -25,4 +26,5 @@ logo{
     padding:50px 50px 50px 50px ;
     margin: 50px 50px 50px 50px;
     background-color: aqua;
+    color: aqua;
 }
