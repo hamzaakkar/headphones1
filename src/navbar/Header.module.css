@@ -22,7 +22,7 @@
 
 .headphones{
     color: gray !important;
-    font-weight: 600;
+    font-weight: 600; 
 }
 .speakers,.audio,.support{
     color: black !important;
