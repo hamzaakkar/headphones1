@@ -6,6 +6,8 @@ import Vector from "./Vector.svg"
 import Group from "./Group.svg"
 import karoussa from "./karoussa.svg"
 import union from "./Union.svg"
+import khtouta from "./khtouta.svg"
+import Bitmap from "./Bitmap.svg"
 
 function Header() {
   return (
@@ -21,6 +23,7 @@ function Header() {
       <Nav.Link href="#speakers" className={styles.speakers}>Speakers</Nav.Link>
       <Nav.Link href="#audio"className={styles.audio}>Audio Sunglasses</Nav.Link>
       <Nav.Link href="#support"className={styles.support}>Support</Nav.Link>
+      
 
       
     </Nav>
@@ -28,13 +31,15 @@ function Header() {
     <Navbar.Brand href="#search" className={styles.Vector}><img src={Vector} alt=""/></Navbar.Brand>
     <Navbar.Brand href="#Group" className={styles.Group}><img src={Group} alt=""/></Navbar.Brand>
     <Navbar.Brand href="#karoussa" className={styles.karoussa}><img src={karoussa} alt=""/></Navbar.Brand>
+    <Navbar.Brand href="#khtouta" className={styles.khtouta}><img src={khtouta} alt=""/></Navbar.Brand>
+    <Navbar.Brand href="#Bitmap" className={styles.Bitmap}><img src={Bitmap} alt=""/></Navbar.Brand>
+
     
 
 
 
     
     <Form inline>
-
    
     </Form>
   </Navbar>
